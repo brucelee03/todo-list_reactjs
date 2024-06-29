@@ -1,0 +1,59 @@
+.bg-container {
+  background-color: #ffc2a0;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+  overflow-y: auto;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .todo-items-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    color: #000000;
+    padding: 10px;
+    width: 100%;
+  }
+  .heading {
+    font-size: 24px;
+    color: #ff8542;
+    margin-bottom: 28px;
+  }
+  .todos-list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 767px) {
+  .bg-container {
+    padding: 48px;
+  }
+  .todo-items-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    color: #000000;
+    padding: 20px;
+    width: 100%;
+  }
+  .heading {
+    font-size: 55px;
+    color: #ff8542;
+    margin-bottom: 38px;
+  }
+  .todos-list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+}

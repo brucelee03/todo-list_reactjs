@@ -1,0 +1,53 @@
+@media (max-width: 576px) {
+  .todos-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .todos {
+    font-size: 12px;
+    text-align: left;
+    width: 200px;
+    margin-left: -20px;
+  }
+  .button-container {
+    align-self: center;
+    margin-right: 12px;
+  }
+  .button {
+    border: solid 1px #ff0b37;
+    background-color: transparent;
+    color: #ff0b37;
+    height: 24px;
+    width: 52px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 767px) {
+  .todos-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    gap: 20px;
+  }
+  .todos {
+    font-size: 27px;
+    text-align: left;
+  }
+  .button-container {
+    align-self: center;
+  }
+  .button {
+    border: solid 1px #ff0b37;
+    background-color: transparent;
+    color: #ff0b37;
+    height: 36px;
+    width: 85px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+}
